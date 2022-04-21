@@ -1,0 +1,16 @@
+.navigation {
+  min-height: 96px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-template-columns: 1fr 2fr repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+  justify-items: center;
+}

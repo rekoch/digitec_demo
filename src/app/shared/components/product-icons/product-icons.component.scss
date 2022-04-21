@@ -1,0 +1,7 @@
+@use "src/styles/colors";
+.icon-space span {
+  padding: 0 10px;
+  &:hover {
+    color: colors.$digitec-secondary;
+  }
+}

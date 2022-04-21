@@ -1,0 +1,30 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.px-24 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}

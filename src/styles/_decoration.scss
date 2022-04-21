@@ -1,0 +1,28 @@
+@use "colors";
+.primary-text {
+  color: colors.$digitec-primary;
+}
+
+.bottom-line {
+  border-bottom: 1px solid colors.$thin-line;
+}
+
+.font-big {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: colors.$digitec-primary;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  cursor: pointer;
+  &:hover {
+    background-color: colors.$background-hover;
+  }
+}

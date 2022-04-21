@@ -1,0 +1,11 @@
+@use "src/styles/colors";
+
+.language-switcher {
+  background: transparent;
+  border: none;
+  color: colors.$digitec-primary;
+  margin-left: 32px;
+  &:hover {
+    color: colors.$digitec-secondary;
+  }
+}

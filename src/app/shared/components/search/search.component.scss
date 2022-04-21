@@ -1,0 +1,22 @@
+@use "src/styles/colors";
+button {
+  width: 100%;
+  background: none;
+  color: colors.$grey-01;
+  line-height: 0;
+  height: 38px;
+  padding-left: 12px;
+  border: solid 1px colors.$digitec-primary;
+  justify-content: space-between;
+  input {
+    height: 100%;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  };
+}
+
+.material-symbols-outlined {
+  color: colors.$digitec-primary;
+}

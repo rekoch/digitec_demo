@@ -1,0 +1,27 @@
+@use "src/styles/colors";
+.availability {
+  display: flex;
+  color: colors.$digitec-primary;
+  font-size: 11px;
+  p {
+    margin: 0;
+  }
+}
+
+.remainingBar {
+  background: #ddd;
+  height: 4px;
+  margin-top: 5px;
+}
+
+.salesProgress {
+  width: 35%;
+  background: colors.$digitec-primary;
+  height: 100%;
+  transition: width .25s ease .2s;
+}
+
+.price {
+  color: colors.$digitec-secondary;
+  margin-bottom: 0;
+}
