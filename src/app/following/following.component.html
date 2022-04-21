@@ -1,0 +1,11 @@
+<h1>Community</h1>
+<h2>Reviews</h2>
+<p class="pb-24">du folgst folgenden Reviewer:</p>
+<div class="grid">
+  <ng-container *ngFor="let following of reviewFollowing">
+    <a>{{following.name}}</a>
+    <div>{{following.role}}</div>
+    <button>entfolgen</button>
+    <div class="row-border"></div>
+  </ng-container>
+</div>

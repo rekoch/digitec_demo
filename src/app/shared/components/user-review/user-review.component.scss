@@ -1,0 +1,37 @@
+@use "src/styles/colors";
+.grid {
+  grid-template-columns: 40px 4fr;
+  align-items: center;
+  &.intent {
+    grid-template-columns: 20px 1fr;
+    align-items: start;
+    grid-row-gap: 10px;
+  }
+}
+
+.review {
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.profile-picture {
+  font-size: 40px;
+}
+
+button {
+  cursor: pointer;
+  height: 36px;
+  border: none;
+  background: none;
+  color: colors.$digitec-primary;
+  display: flex;
+  align-items: center;
+  &:hover {
+    color: colors.$digitec-secondary;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: start;
+}

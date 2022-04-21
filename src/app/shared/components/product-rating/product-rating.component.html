@@ -1,0 +1,4 @@
+<ng-container *ngFor="let ratingStar of ratingStars; index as index">
+  <span *ngIf="index < rating" class="material-symbols-outlined">{{ratingStar}}</span>
+  <span *ngIf="index >= rating" class="material-symbols-outlined">grade</span>
+</ng-container>

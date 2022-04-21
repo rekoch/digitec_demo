@@ -1,0 +1,104 @@
+<div class="grid">
+  <div class="product-images">
+    <img class="product-image" [src]="activeImage.pictureUrl" alt="product image"/>
+    <div class="carousel">
+      <ng-container *ngFor="let image of imageCarousel">
+        <button (click)="activeImage=image" class="carousel-button"
+                [class.active-carousel]="image == activeImage"></button>
+      </ng-container>
+    </div>
+    <p class="carousel-text">{{imageCarousel.length}} Bilder</p>
+  </div>
+  <div class="product-details">
+    <p class="price"><span class="bold">1199.-&nbsp;</span>statt 1701.-</p>
+    <p class="detail"><span class="bold">Dell&nbsp;</span>Latitude 7420</p>
+    <p>14 ", Intel Core i7-1185G7, 16 GB, 512 GB</p>
+    <div class="rating">
+      <rocket-product-rating [rating]="4"></rocket-product-rating>
+      <a [routerLink]="'.'" [fragment]="sectionRouting[0]">1 Bewertung</a>
+    </div>
+  </div>
+</div>
+<div class="bottom-line">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum cupiditate enim et hic
+  magnam nesciunt odio
+  officiis quaerat quam quasi qui quidem tenetur, ullam veniam? Distinctio eius itaque quis. Lorem ipsum dolor sit amet,
+  consectetur adipisicing elit. Aperiam assumenda distinctio incidunt iusto, magnam magni maiores quia veniam.
+  Accusamus, aspernatur culpa dolorum exercitationem iste nobis quis recusandae tempora tempore velit!lorem Lorem ipsum
+  dolor sit amet, consectetur adipisicing elit. Amet aut cum dicta earum, odio porro voluptas. Asperiores ducimus eos
+  eveniet repellat rerum. Debitis doloremque, expedita iure officiis quia repellat sunt.lorem
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at autem beatae dignissimos ducimus, est eum
+    incidunt ipsa iste laboriosam non obcaecati possimus quos reiciendis repudiandae saepe sint! Libero, officiis?
+  </div>
+  <div>Accusantium at deserunt ea excepturi exercitationem expedita, facilis id iure labore laboriosam laudantium nemo
+    nostrum odio pariatur perspiciatis quidem sed sint sunt ullam ut. A amet ducimus itaque maiores rem?
+  </div>
+  <div>A aliquam commodi dicta dolorum enim fuga iure magni minima molestias neque nisi nobis non numquam obcaecati
+    officiis quam quod reiciendis rem sequi sunt veniam veritatis, voluptatum. Harum sed, voluptate!
+  </div>
+  <div>Adipisci aspernatur ipsum itaque molestiae natus necessitatibus nobis sed, voluptatum. Alias culpa dolores et ex
+    incidunt labore nisi quia quis sed? Delectus explicabo nostrum obcaecati odit possimus reprehenderit, vero
+    voluptatum!
+  </div>
+  <div>Atque, commodi cum, dicta ex facilis itaque iure, minima perspiciatis porro quia reiciendis ut vero voluptate.
+    Accusantium cupiditate inventore laborum libero odio, possimus, rem saepe sequi tempora velit veritatis, vitae!
+  </div>
+  <div>Aperiam aspernatur blanditiis, dolorum enim incidunt quidem quod veniam? Aliquam, architecto assumenda doloribus
+    esse explicabo impedit laudantium libero maxime nemo odit officiis porro quas, quis repellat sint tempora totam!
+    Adipisci!
+  </div>
+  <div>Accusamus alias cumque inventore ipsam ipsum itaque iure labore minus necessitatibus, non praesentium repellat
+    saepe, tempora? Ipsam ipsum itaque minima nulla obcaecati quo quod sequi vero. Aut consequuntur cupiditate expedita.
+  </div>
+  <div>Ad commodi consectetur ducimus eius eos est illum incidunt ipsa iure molestias neque nihil pariatur perspiciatis
+    quas quasi quisquam recusandae reiciendis, repellat sapiente similique sit unde vero vitae voluptate voluptatum.
+  </div>
+  <div>Aliquid amet, dignissimos dolores doloribus eveniet explicabo, libero odio quas repellat veniam, voluptatem
+    voluptates? At consequuntur dolorum esse facere fugit ipsa iste obcaecati officiis quaerat quia quisquam, quos, vel
+    voluptates.
+  </div>
+  <div>A aliquid, animi beatae blanditiis doloribus earum esse est ex expedita incidunt inventore iste laudantium maxime
+    molestias nisi omnis optio porro possimus provident saepe sed sit ut veniam vero voluptatibus.
+  </div>
+  <div>Ab commodi magni necessitatibus nisi optio voluptatem? Blanditiis cumque dolor nemo provident repudiandae
+    sapiente! Amet aperiam consectetur delectus ea earum eius explicabo facere natus, nostrum quidem, quod, totam unde
+    vero!
+  </div>
+  <div>Amet animi aspernatur debitis delectus dolores doloribus eius eveniet, expedita fugit incidunt iste libero magni
+    molestias nam neque nostrum officiis quo rem repudiandae sapiente sed sunt totam unde ut voluptate.
+  </div>
+  <div>Accusamus aliquam assumenda at atque autem blanditiis cum, cumque dolor ea earum eos exercitationem facere fugiat
+    hic laboriosam minus nihil officia optio pariatur quod tempora tempore ut voluptatum? Odit, officia.
+  </div>
+  <div>Adipisci architecto cum inventore iure pariatur possimus, ratione rerum tenetur velit voluptas. Consequuntur cum
+    distinctio dolorem eius est eum fuga itaque laudantium necessitatibus odio provident, repellendus repudiandae vel
+    voluptas, voluptatibus.
+  </div>
+  <div>Ab accusamus assumenda at deserunt fuga fugit harum impedit libero magnam nihil odit, omnis quasi, vero. Ab
+    commodi earum iusto magni, molestias quis voluptas! Id obcaecati ratione voluptatum! Enim, error?
+  </div>
+  <div>Ipsam officiis perspiciatis praesentium, repudiandae saepe suscipit voluptates! Alias aliquam cum debitis
+    deleniti dicta exercitationem impedit inventore iste, iusto minus modi non quasi quisquam reprehenderit repudiandae
+    totam vero voluptas voluptatem.
+  </div>
+  <div>At cupiditate ipsa repellat tempore tenetur. Aliquam debitis delectus distinctio enim error ex id incidunt itaque
+    iure molestias mollitia neque, optio, quaerat qui quod sapiente sit vel veniam, voluptatibus voluptatum?
+  </div>
+  <div>Aspernatur commodi corporis dicta dignissimos eos error esse exercitationem facere, fugiat fugit harum ipsum
+    maiores molestiae mollitia, neque perferendis porro quae quaerat qui quibusdam repellat repellendus sit unde ut
+    veniam?
+  </div>
+  <div>Adipisci at consequatur corporis dignissimos ea labore molestiae nihil quos reprehenderit ut! Blanditiis minus
+    numquam perferendis praesentium quaerat quidem quos repellat ut vitae? Blanditiis illo illum perferendis quibusdam
+    repellendus voluptate.
+  </div>
+  <div>Ipsam nobis, pariatur. Consequatur exercitationem explicabo illo laudantium nihil, nisi officia reprehenderit
+    soluta suscipit temporibus! At atque culpa, dolorum laborum maiores neque nulla odit officiis possimus quos
+    reiciendis temporibus voluptatibus.
+  </div>
+  <div>A ab accusantium et natus quaerat quo repellat, vel voluptatum. Ab cum earum eius facere minus voluptate
+    voluptatem? Accusantium aliquid consectetur eum illo libero minus, nostrum provident ratione suscipit tenetur.
+  </div>
+</div>
+<div [attr.id]="sectionRouting[0]">
+  <rocket-user-review></rocket-user-review>
+</div>

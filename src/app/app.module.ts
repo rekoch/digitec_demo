@@ -12,6 +12,10 @@ import { SideNavigationComponent } from './side-navigation/side-navigation.compo
 import { DailyOfferComponent } from './daily-offer/daily-offer.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ProductPlacementComponent } from './shared/components/product-placement/product-placement.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { UserReviewComponent } from './shared/components/user-review/user-review.component';
+import { ProductRatingComponent } from './shared/components/product-rating/product-rating.component';
+import { FollowingComponent } from './following/following.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { ProductPlacementComponent } from './shared/components/product-placement
     SideNavigationComponent,
     DailyOfferComponent,
     MainPageComponent,
-    ProductPlacementComponent
+    ProductPlacementComponent,
+    ProductDetailComponent,
+    UserReviewComponent,
+    ProductRatingComponent,
+    FollowingComponent
   ],
   imports: [
     BrowserModule,
