@@ -17,4 +17,8 @@ button {
   cursor: pointer;
   border-radius: 3px;
   border: 0 transparent;
+  &:hover {
+    background-color: colors.$digitec-secondary;
+    color: white;
+  }
 }
